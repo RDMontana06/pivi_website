@@ -2,63 +2,6 @@
 
 
 @section('content')
-	<!-- ======= Top Bar ======= -->
-	<section id="topbar" class="d-flex align-items-center">
-		<div class="container d-flex justify-content-center justify-content-md-between">
-			<div class="contact-info d-flex align-items-center">
-				<i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-				<i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-			</div>
-			<div class="social-links d-none d-md-flex align-items-center">
-				<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-				<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-				<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-				<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-			</div>
-		</div>
-	</section>
-
-	<!-- ======= Header ======= -->
-	<header id="header" class="d-flex align-items-center">
-		<div class="container d-flex align-items-center justify-content-between">
-
-			<h1 class="logo"><a href="index.html">
-					<img src="{{ asset('img/PIVI_FINAL_PNG-02.png') }}">
-				</a></h1>
-			<!-- Uncomment below if you prefer to use an image logo -->
-			<!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
-
-			<nav id="navbar" class="navbar">
-				<ul>
-					<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-					<li><a class="nav-link scrollto" href="#about">About</a></li>
-					<li><a class="nav-link scrollto" href="#services">Services</a></li>
-					<li><a class="nav-link scrollto" href="#team">Team</a></li>
-					<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-						<ul>
-							<li><a href="#">Drop Down 1</a></li>
-							<li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-								<ul>
-									<li><a href="#">Deep Drop Down 1</a></li>
-									<li><a href="#">Deep Drop Down 2</a></li>
-									<li><a href="#">Deep Drop Down 3</a></li>
-									<li><a href="#">Deep Drop Down 4</a></li>
-									<li><a href="#">Deep Drop Down 5</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Drop Down 2</a></li>
-							<li><a href="#">Drop Down 3</a></li>
-							<li><a href="#">Drop Down 4</a></li>
-						</ul>
-					</li>
-					<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-				</ul>
-				<i class="bi bi-list mobile-nav-toggle"></i>
-			</nav><!-- .navbar -->
-
-		</div>
-	</header><!-- End Header -->
-
 	<!-- ======= Hero Section ======= -->
 	<section id="hero" class="d-flex align-items-center">
 		<div class="container" data-aos="zoom-out" data-aos-delay="100">
@@ -70,9 +13,7 @@
 			</div>
 		</div>
 	</section><!-- End Hero -->
-
 	<main id="main">
-
 		<!-- ======= Featured Services Section ======= -->
 		<section id="featured-services" class="featured-services">
 			<div class="section-title">
@@ -84,7 +25,7 @@
 					<div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
 						<div class="icon-box" data-aos="fade-up" data-aos-delay="100">
 							<div class="icon"><i class='bx bxs-hard-hat'></i></div>
-							<h4 class="title"><a href="">PCHI</a></h4>
+							<h4 class="title"><a href="{{ url('/pchi') }}">PCHI</a></h4>
 							<p class="description">Premium Capital Holdings Inc. dolores et quas molestias excepturi</p>
 						</div>
 					</div>
@@ -413,8 +354,8 @@
 
 					<div class="col-lg-6 ">
 						<iframe class="mb-4 mb-lg-0"
-							src="https://maps.google.com/maps?q=pmi%20tower&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-							style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+							src="https://maps.google.com/maps?q=1423%20The%20Mondrian%20Bldg&t=&z=13&ie=UTF8&iwloc=&output=embed"
+							frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
 					</div>
 
 
@@ -451,88 +392,4 @@
 	</main><!-- End #main -->
 
 	<!-- ======= Footer ======= -->
-	<footer id="footer">
-
-		<div class="footer-top">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-lg-3 col-md-6 footer-contact">
-						<h3>PIVI<span>.</span></h3>
-						<p>
-							1423 The Mondrian Bldg.,<br>
-							P. Ocampo Ext., Brgy. San Antonio, Makati City,<br>
-							Metro Manila, Philippines 1203<br><br>
-							<strong>Phone:</strong> +1 5589 55488 55<br>
-							<strong>Email:</strong> info@premiuminfiniteventures.com<br>
-						</p>
-					</div>
-
-					<div class="col-lg-3 col-md-6 footer-links">
-						<h4>Useful Links</h4>
-						<ul>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-						</ul>
-					</div>
-
-					<div class="col-lg-3 col-md-6 footer-links">
-						<h4>Our Services</h4>
-						<ul>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Construction</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Logistics</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Ship Building</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Manufacturing</a></li>
-						</ul>
-					</div>
-
-					<div class="col-lg-3 col-md-6 footer-links">
-						<h4>Our Social Networks</h4>
-						<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-						<div class="social-links mt-3">
-							<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-							<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-							<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-							<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-							<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<div class="container py-4">
-			<div class="copyright">
-				&copy; Copyright <strong><span>PIVI</span></strong>. All Rights Reserved
-			</div>
-			<div class="credits">
-			</div>
-		</div>
-	</footer><!-- End Footer -->
-	<!-- Modals -->
-	<!-- Modal -->
-	<div class="modal fade" id="pchi" tabindex="-1" aria-labelledby="pchi" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="pchi">PCHI Companies</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					...
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="preloader"></div>
-	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-			class="bi bi-arrow-up-short"></i></a>
 @endsection
