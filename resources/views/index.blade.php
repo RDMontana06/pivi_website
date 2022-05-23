@@ -387,7 +387,7 @@
 						<div class="info-box mb-4">
 							<i class="bx bx-map"></i>
 							<h3>Our Address</h3>
-							<p>A108 Adam Street, New York, NY 535022</p>
+							<p>1423 The Mondrian Bldg., P. Ocampo Ext., Brgy. San Antonio, Makati City, Philippines 1203</p>
 						</div>
 					</div>
 
@@ -395,7 +395,7 @@
 						<div class="info-box  mb-4">
 							<i class="bx bx-envelope"></i>
 							<h3>Email Us</h3>
-							<p>contact@example.com</p>
+							<p>info@premiuminfiniteventures.com</p>
 						</div>
 					</div>
 
@@ -460,11 +460,11 @@
 					<div class="col-lg-3 col-md-6 footer-contact">
 						<h3>PIVI<span>.</span></h3>
 						<p>
-							Corner, Pablo Ocampo Sr Ext Onyx &,<br>
-							Cabanillas, Makati 1203<br>
-							Metro Manila <br><br>
+							1423 The Mondrian Bldg.,<br>
+							P. Ocampo Ext., Brgy. San Antonio, Makati City,<br>
+							Metro Manila, Philippines 1203<br><br>
 							<strong>Phone:</strong> +1 5589 55488 55<br>
-							<strong>Email:</strong> info@example.com<br>
+							<strong>Email:</strong> info@premiuminfiniteventures.com<br>
 						</p>
 					</div>
 
