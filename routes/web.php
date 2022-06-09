@@ -17,3 +17,7 @@ Route::get('/', function () {
 Route::get('/pchi', function () {
     return view('pchi');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
