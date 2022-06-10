@@ -1557,3 +1557,39 @@ section {
     padding: 2px 0;
   }
 }
+/* Image Zoom rdmontana 2022 */
+/* [1] The container */
+.featured-services .img-hover-zoom {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  /* height: 300;  */
+  /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.featured-services .img-hover-zoom::before {
+  content: "";
+  position: absolute;
+  background: #cbe0fb;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.featured-services .img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.featured-services .img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
