@@ -13,71 +13,50 @@
 			</div>
 		</div>
 	</section><!-- End Hero -->
-	<main id="main">
-		<!-- ======= Featured Services Section ======= -->
-		<section id="featured-services" class="featured-services">
-			<div class="section-title">
-				<h2>Holdings</h2>
-				<h3>Our <span>Holdings</span></h3>
-			</div>
-			<div class="container" data-aos="fade-up">
-				<div class="row">
-					<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
-						<a href="{{ url('/pchi') }}">
-							<div class="img-hover-zoom">
-								<img src="{{ asset('img/holdings-logo/pchi-logo.jpg') }}" width="300" height="300">
-							</div>
-						</a>
-						{{-- <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+	<section id="holdings" class="holdings">
+		<div class="section-title">
+			<h2>Holdings</h2>
+			<h3>Our <span>Holdings</span></h3>
+		</div>
+		<div class="container aos-init aos-animate" data-aos="fade-up">
+			<div class="row">
+				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
+					<a href="{{ url('/pchi') }}">
+						<div class="img-hover-zoom">
+							<img src="{{ asset('img/holdings-logo/pchi-logo.jpg') }}" width="300" height="300">
+						</div>
+					</a>
+					{{-- <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
 							<img src="{{ asset('img/holdings-logo/pchi-logo.jpg') }}" data-bs-toggle="modal" data-bs-target="#pchi"
 								width="300" height="300" alt=""> --}}
-						{{-- <div class="icon"><i class='bx bxs-hard-hat'></i></div>
+					{{-- <div class="icon"><i class='bx bxs-hard-hat'></i></div>
 							<h4 class="title"><a href="{{ url('/pchi') }}">PCHI</a></h4>
 							<p class="description">Premium Capital Holdings Inc. dolores et quas molestias excepturi</p> --}}
-						{{-- </div> --}}
-					</div>
-
-					<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
-						<a href="{{ url('/pchi') }}">
-							<div class="img-hover-zoom">
-								<img src="{{ asset('img/holdings-logo/ihdc-holdings.png') }}" width="300" height="300" alt="">
-							</div>
-						</a>
-					</div>
-
-					<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
-						<a href="{{ url('/pchi') }}">
-							<div class="img-hover-zoom">
-								<img src="{{ asset('img/holdings-logo/pthc-logo.png') }}" width="300" height="300" alt="">
-							</div>
-						</a>
-					</div>
-
+					{{-- </div> --}}
 				</div>
-				{{-- <div class="row">
-					<div class="col-md-4 col-lg-4 align-items-center mb-5 mb-lg-0">
-						<div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-							<img src="{{ asset('img/holdings-logo/pchi-logo.jpg') }}" data-bs-toggle="modal" data-bs-target="#pchi"
-								width="200" height="200" alt="">
-							<!-- <h4 class="title"><a href="">Premium Capital Holdings Inc.</a></h4>						<p class="description">Premium Capital Holdings Inc.</p> -->
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-4 align-items-stretch mb-5 mb-lg-0">
-						<div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-							<img src="{{ asset('img/holdings-logo/ihdc-holdings.png') }}" width="200" height="200" alt="">
-						</div>
-					</div>
 
-					<div class="col-md-4 col-lg-4 align-items-stretch mb-5 mb-lg-0">
-						<div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-							<img src="{{ asset('img/holdings-logo/pthc-logo.png') }}" width="200" height="200" alt="">
+				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
+					<a href="{{ url('/ihdc') }}">
+						<div class="img-hover-zoom">
+							<img src="{{ asset('img/holdings-logo/ihdc-holdings.png') }}" width="300" height="300" alt="">
 						</div>
-					</div>
+					</a>
+				</div>
 
-				</div> --}}
-
+				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
+					<a href="{{ url('/pthc') }}">
+						<div class="img-hover-zoom">
+							<img src="{{ asset('img/holdings-logo/pthc-logo.png') }}" width="300" height="300" alt="">
+						</div>
+					</a>
+				</div>
 			</div>
-		</section><!-- End Featured Services Section -->
+
+		</div>
+	</section><!-- End Featured Services Section -->
+	<main id="main">
+		<!-- ======= Featured Services Section ======= -->
+
 
 		<!-- ======= About Section ======= -->
 		<section id="about" class="about section-bg">
@@ -128,41 +107,6 @@
 			</div>
 		</section><!-- End About Section -->
 
-		<!-- ======= Clients Section ======= -->
-		<section id="clients" class="clients section-bg">
-			<div class="container" data-aos="zoom-in">
-
-				<div class="row">
-
-					<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-						<img src="{{ asset('img/clients/client-1.png') }}" class="img-fluid" alt="">
-					</div>
-
-					<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-						<img src="{{ asset('img/clients/client-2.png') }}" class="img-fluid" alt="">
-					</div>
-
-					<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-						<img src="{{ asset('img/clients/client-3.png') }}" class="img-fluid" alt="">
-					</div>
-
-					<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-						<img src="{{ asset('img/clients/client-4.png') }}" class="img-fluid" alt="">
-					</div>
-
-					<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-						<img src="{{ asset('img/clients/client-5.png') }}" class="img-fluid" alt="">
-					</div>
-
-					<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-						<img src="{{ asset('img/clients/client-6.png') }}" class="img-fluid" alt="">
-					</div>
-
-				</div>
-
-			</div>
-		</section><!-- End Clients Section -->
-
 		<!-- ======= Services Section ======= -->
 		<section id="services" class="services">
 			<div class="container" data-aos="fade-up">
@@ -175,50 +119,66 @@
 				</div>
 
 				<div class="row">
-					<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
 						<div class="icon-box">
 							<div class="icon"><i class="bx bxl-dribbble"></i></div>
-							<h4><a href="">Lorem Ipsum</a></h4>
+							<h5><a href="">Construction</a></h5>
 							<p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
 						<div class="icon-box">
 							<div class="icon"><i class="bx bx-file"></i></div>
-							<h4><a href="">Sed ut perspiciatis</a></h4>
+							<h5><a href="">Land Development</a></h5>
 							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
 							<div class="icon"><i class="bx bx-tachometer"></i></div>
-							<h4><a href="">Magni Dolores</a></h4>
+							<h5><a href="">Design & Build</a></h5>
 							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
 						<div class="icon-box">
 							<div class="icon"><i class="bx bx-world"></i></div>
-							<h4><a href="">Nemo Enim</a></h4>
+							<h5><a href="">Ship Building</a></h5>
 							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
 						<div class="icon-box">
 							<div class="icon"><i class="bx bx-slideshow"></i></div>
-							<h4><a href="">Dele cardo</a></h4>
+							<h5><a href="">Ship Repair</a></h5>
 							<p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
 							<div class="icon"><i class="bx bx-arch"></i></div>
-							<h4><a href="">Divera don</a></h4>
+							<h5><a href="">Ship Conversion</a></h5>
+							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+						<div class="icon-box">
+							<div class="icon"><i class="bx bx-arch"></i></div>
+							<h5><a href="">Logistics</a></h5>
+							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+						<div class="icon-box">
+							<div class="icon"><i class="bx bx-arch"></i></div>
+							<h5><a href="">Others</a></h5>
 							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>

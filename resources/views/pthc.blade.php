@@ -7,10 +7,10 @@
 			<div class="container">
 
 				<div class="d-flex justify-content-between align-items-center">
-					<h2>Premium Capital Holdings Inc.</h2>
+					<h2>Premium Technology Holdings Inc.</h2>
 					<ol>
 						<li><a href="{{ url('/') }}">Home</a></li>
-						<li>PCHI</li>
+						<li>PTHC</li>
 					</ol>
 				</div>
 
@@ -23,7 +23,7 @@
 				<div class="row gy-4">
 					<div class="col-lg-12">
 						<div class="portfolio-description">
-							<h2>About PCHI</h2>
+							<h2>About PTHC</h2>
 							<p>
 								Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
 								Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium

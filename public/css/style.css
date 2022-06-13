@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
+  height: 100vh;
   background: url("../img/2500x1500_pmitower.png") top left;
   background-size: cover;
   position: relative;
@@ -546,7 +546,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
+  padding: 40px 0;
   background-color: #f1f6fe;
   min-height: 40px;
 }
@@ -592,7 +592,7 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+.holdings .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -602,7 +602,7 @@ section {
   border-radius: 8px;
   z-index: 1;
 } 
-.featured-services .icon-box::before {
+.holdings .icon-box::before {
   content: "";
   position: absolute;
   background: #cbe0fb;
@@ -613,37 +613,37 @@ section {
   transition: all 0.3s;
   z-index: -1;
 }
-.featured-services .icon-box:hover::before {
+.holdings .icon-box:hover::before {
   background: #00a5e6;
   top: 0;
   border-radius: 0px;
 }
-.featured-services .icon {
+.holdings .icon {
   margin-bottom: 15px;
 }
-.featured-services .icon i {
+.holdings .icon i {
   font-size: 48px;
   line-height: 1;
   color: #00a5e6;
   transition: all 0.3s ease-in-out;
 }
-.featured-services .title {
+.holdings .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.featured-services .title a {
+.holdings .title a {
   color: #111;
 }
-.featured-services .description {
+.holdings .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
-.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+.holdings .icon-box:hover .title a, .holdings .icon-box:hover .description {
   color: #fff;
 }
-.featured-services .icon-box:hover .icon i {
+.holdings .icon-box:hover .icon i {
   color: #fff;
 }
 /*--------------------------------------------------------------
@@ -811,12 +811,12 @@ section {
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
-.services .icon-box h4 {
+.services .icon-box h5 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
-.services .icon-box h4 a {
+.services .icon-box h5 a {
   color: #222222;
   transition: ease-in-out 0.3s;
 }
@@ -1559,7 +1559,7 @@ section {
 }
 /* Image Zoom rdmontana 2022 */
 /* [1] The container */
-.featured-services .img-hover-zoom {
+.holdings .img-hover-zoom {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -1572,7 +1572,7 @@ section {
   /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
-.featured-services .img-hover-zoom::before {
+.holdings .img-hover-zoom::before {
   content: "";
   position: absolute;
   background: #cbe0fb;
@@ -1585,11 +1585,11 @@ section {
 }
 
 /* [2] Transition property for smooth transformation of images */
-.featured-services .img-hover-zoom img {
+.holdings .img-hover-zoom img {
   transition: transform .5s ease;
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
-.featured-services .img-hover-zoom:hover img {
+.holdings .img-hover-zoom:hover img {
   transform: scale(1.2);
 }

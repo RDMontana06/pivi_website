@@ -17,6 +17,12 @@ Route::get('/', function () {
 Route::get('/pchi', function () {
     return view('pchi');
 });
+Route::get('/pthc', function () {
+    return view('pthc');
+});
+Route::get('/ihdc', function () {
+    return view('ihdc');
+});
 
 Auth::routes();
 
