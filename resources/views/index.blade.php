@@ -18,7 +18,7 @@
 			<h2>Holdings</h2>
 			<h3>Our <span>Holdings</span></h3>
 		</div>
-		<div class="container aos-init aos-animate" data-aos="fade-up">
+		<div class="container" data-aos="fade-up">
 			<div class="row">
 				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
 					<a href="{{ url('/pchi') }}">
