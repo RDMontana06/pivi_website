@@ -6,9 +6,11 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 	<title>Premium Infinite Ventures Inc.</title>
-	<meta content="" name="description">
-	<meta content="" name="keywords">
-
+	<meta content="Holdings, Construction Company, Shipping, Logistics, Ship Building" name="keywords">
+	<meta content="Premium Infinite Ventures" property="og:title">
+	<meta content="Holdings, Construction Company, Shipping, Logistics, Ship Building" property="og:description">
+	<meta content="{{ asset('img/PIVI_FINAL_PNG-02.png') }}" property="og:image">
+	<meta content="http://premiuminfiniteventures.com/" property="og:url">
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="{{ asset('img/PIVI_FINAL_PNG-02.png') }}" />
 	<link href="{{ asset('img/PIVI_FINAL_PNG-02.png') }}" rel="pivi-logo.png">
@@ -54,7 +56,7 @@
 			<h1 class="logo"><a href="{{ url('/') }}">
 					<img src="{{ asset('img/PIVI_FINAL_PNG-02.png') }}">
 				</a></h1>
-			<!-- Uncomment below if you prefer to use an image logo -->
+			<!-- Uncomment below if you prefer to use an 	mage logo -->
 			<!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
 			<nav id="navbar" class="navbar">
