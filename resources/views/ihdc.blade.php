@@ -21,15 +21,45 @@
 			<div class="container">
 
 				<div class="row gy-4">
-					<div class="col-lg-12">
-						<div class="portfolio-description">
-							<h2>About IHDC</h2>
-							<p>
-								Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
-								Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium
-								nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-							</p>
+					<div class="col-lg-4">
+						<div class="portfolio-details-slider swiper">
+							<div class="swiper-wrapper align-items-center">
+
+								<div class="swiper-slide">
+									<img src="{{ asset('img/about_pchi/1.png') }}" alt="">
+								</div>
+
+								<div class="swiper-slide">
+									<img src="{{ asset('img/about_pchi/2.png') }}" alt="">
+								</div>
+
+								<div class="swiper-slide">
+									<img src="{{ asset('img/about_pchi/3.png') }}" alt="">
+								</div>
+
+							</div>
+							<div class="swiper-pagination"></div>
 						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="portfolio-info">
+							<h3>About IHDC</h3>
+							<ul>
+								<li><strong>PRECAST, AGGREGATES AND CEMENTS</strong></li>
+								<p>
+									One of the leading and largest suppliers, our company aims to make a positive impact through a sustainable and
+									socio-economic business approach to be able to cater to the growing market of construction materials.
+									Our products include Aggregates, Pre-cast, Cement and Asphalt. We are proud of our extensive work of logistics
+									capabilities that can offer widest customer reach for both our locals and international clients.
+								</p>
+								<li><strong>FREIGHT FORWARDER</strong></li>
+								<p>
+									We envision to be a world-class developer of premium developments, forefront in sustainable and innovation to
+									inspire and elevate the quality of life of every Filipino through thoughtfully designed real-estate.
+								</p>
+							</ul>
+						</div>
+
 					</div>
 
 				</div>

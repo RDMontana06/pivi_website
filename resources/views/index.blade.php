@@ -6,9 +6,11 @@
 	<section id="hero" class="d-flex align-items-center">
 		<div class="container" data-aos="zoom-out" data-aos-delay="100">
 			<h1>Welcome to <span>Premium Infinite Ventures Inc.</span></h1>
-			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis.</h2>
+			<h2>A holding company that represents a broad range of services and industries, with a widely diversified fields in
+				technology, aggregate supplies, construction development and recurring revenue to provide world-class products and
+				services to the Filipino people</h2>
 			<div class="d-flex">
-				<a href="#about" class="btn-get-started scrollto">Who we are</a>
+				<a href="#core" class="btn-get-started scrollto">Core Values</a>
 				<!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
 			</div>
 		</div>
@@ -58,15 +60,13 @@
 		<!-- ======= Featured Services Section ======= -->
 
 
-		<!-- ======= About Section ======= -->
-		<section id="about" class="about section-bg">
+		<!-- ======= Core Section ======= -->
+		<section id="core" class="about section-bg">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2>About</h2>
-					<h3>Find Out More <span>About Us</span></h3>
-					<p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-						autem.</p>
+					<h2>Core Values</h2>
+					<h3>Our <span>Core Values</span></h3>
 				</div>
 
 				<div class="row">
@@ -75,10 +75,11 @@
 					</div>
 					<div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
 						data-aos-delay="100">
-						<h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+						<h3>Premium Infinite Ventures Inc.</h3>
 						<p class="fst-italic">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua.
+							A holding company that represents a broad range of services and industries, with a widely diversified fields in
+							technology, aggregate supplies, construction development and recurring revenue to provide world-class products and
+							services to the Filipino people
 						</p>
 						<ul>
 							<li>
@@ -114,30 +115,30 @@
 				<div class="section-title">
 					<h2>Services</h2>
 					<h3>Check our <span>Services</span></h3>
-					<p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-						autem.</p>
+					{{-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+						autem.</p> --}}
 				</div>
 
 				<div class="row">
 					<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bxl-dribbble"></i></div>
-							<h5><a href="">Construction</a></h5>
+							<div class="icon"><i class="fa-solid fa-user-helmet-safety"></i></div>
+							<h5><a href="">Airport, Seaports and Shipyard Construction</a></h5>
 							<p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-file"></i></div>
-							<h5><a href="">Land Development</a></h5>
+							<div class="icon"><i class="fa-solid fa-buildings"></i></div>
+							<h5><a href="">Building, Land Development, Reclamation & Dredging </a></h5>
 							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-tachometer"></i></div>
+							<div class="icon"><i class="fa-solid fa-compass-drafting"></i></i></div>
 							<h5><a href="">Design & Build</a></h5>
 							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
 						</div>
@@ -145,24 +146,24 @@
 
 					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-world"></i></div>
-							<h5><a href="">Ship Building</a></h5>
+							<div class="icon"><i class="fa-solid fa-ship"></i></div>
+							<h5><a href="">Dikes, Dams, River & Tide Embarkment</a></h5>
 							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-slideshow"></i></div>
-							<h5><a href="">Ship Repair</a></h5>
+							<div class="icon"><i class="fa-solid fa-warehouse"></i></div>
+							<h5><a href="">Industrial Plant & Warehouse</a></h5>
 							<p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-arch"></i></div>
-							<h5><a href="">Ship Conversion</a></h5>
+							<div class="icon"><i class="fa-solid fa-anchor"></i></div>
+							<h5><a href="">Reclamation Dredging & Marine Vessel Services</a></h5>
 							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
@@ -170,7 +171,7 @@
 					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
 							<div class="icon"><i class="bx bx-arch"></i></div>
-							<h5><a href="">Logistics</a></h5>
+							<h5><a href="">Precast, Aggregates and Cements</a></h5>
 							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
@@ -178,7 +179,35 @@
 					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
 							<div class="icon"><i class="bx bx-arch"></i></div>
-							<h5><a href="">Others</a></h5>
+							<h5><a href="">Land Acquisition</a></h5>
+							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+						<div class="icon-box">
+							<div class="icon"><i class="bx bx-arch"></i></div>
+							<h5><a href="">E-commerce Marketplace</a></h5>
+							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+						<div class="icon-box">
+							<div class="icon"><i class="bx bx-arch"></i></div>
+							<h5><a href="">Digital Solutions</a></h5>
+							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+						<div class="icon-box">
+							<div class="icon"><i class="bx bx-arch"></i></div>
+							<h5><a href="">Electronic Distributor</a></h5>
+							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+						<div class="icon-box">
+							<div class="icon"><i class="bx bx-arch"></i></div>
+							<h5><a href="">Digital Payment Channel</a></h5>
 							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
@@ -195,8 +224,8 @@
 				<div class="section-title">
 					<h2>Team</h2>
 					<h3>Our Hardworking <span>Team</span></h3>
-					<p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-						autem.</p>
+					{{-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+						autem.</p> --}}
 				</div>
 
 				<div class="row">
@@ -285,8 +314,8 @@
 				<div class="section-title">
 					<h2>Contact</h2>
 					<h3><span>Contact Us</span></h3>
-					<p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-						autem.</p>
+					{{-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+						autem.</p> --}}
 				</div>
 
 				<div class="row" data-aos="fade-up" data-aos-delay="100">

@@ -27,6 +27,7 @@
 	<link href="{{ asset('vendor/boxicons-2.1.2/css/boxicons.min.css') }}" rel="stylesheet">
 	<link href="{{ asset('vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
 	<link href="{{ asset('vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('vendor/fontawesome6/css/all.min.css') }} " rel="stylesheet">
 
 	<!-- Template Main CSS File -->
 	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -52,21 +53,21 @@
 	<!-- ======= Header ======= -->
 	<header id="header" class="d-flex align-items-center">
 		<div class="container d-flex align-items-center justify-content-between">
-
-			{{-- <h1 class="logo"><a href="{{ url('/') }}">
-					<img src="{{ asset('img/PIVI_FINAL_PNG-02.png') }}">
-				</a></h1> --}}
-			<!-- Uncomment below if you prefer to use an 	mage logo -->
+			{{-- <h1 class="logo"><a href="index.html">
+					<img src="{{ asset('img/logowhite.png') }}" alt="">
+					<span>PIVI</span>
+				</a>
+			</h1> --}}
 			<a href="{{ url('/') }}" class="logo"><img src="{{ asset('img/PIVI_FINAL_PNG-02.png') }}"
 					alt=""></a>
 
 			<nav id="navbar" class="navbar">
 				<ul>
-					<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-					<li><a class="nav-link scrollto" href="#holdings">Holdings</a></li>
-					<li><a class="nav-link scrollto" href="#about">About</a></li>
-					<li><a class="nav-link scrollto" href="#services">Services</a></li>
-					<li><a class="nav-link scrollto" href="#team">Team</a></li>
+					<li><a class="nav-link scrollto active" href="{{ url('/') }}#hero">Home</a></li>
+					<li><a class="nav-link scrollto" href="{{ url('/') }}#holdings">Holdings</a></li>
+					<li><a class="nav-link scrollto" href="{{ url('/') }}#core">Core Values</a></li>
+					<li><a class="nav-link scrollto" href="{{ url('/') }}#services">Services</a></li>
+					<li><a class="nav-link scrollto" href="{{ url('/') }}#team">Team</a></li>
 					{{-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
 						<ul>
 							<li><a href="#">Drop Down 1</a></li>
@@ -112,9 +113,10 @@
 						<h4>Useful Links</h4>
 						<ul>
 							<li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#holdings">Holdings</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#core">Core Values</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
 						</ul>
 					</div>
@@ -122,10 +124,10 @@
 					<div class="col-lg-3 col-md-6 footer-links">
 						<h4>Our Services</h4>
 						<ul>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Construction</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Logistics</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Ship Building</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#">Manufacturing</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Construction</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Logistics</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Ship Building</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Manufacturing</a></li>
 						</ul>
 					</div>
 
