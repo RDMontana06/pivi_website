@@ -792,6 +792,7 @@ section {
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  height: 100%;
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -808,7 +809,7 @@ section {
 }
 .services .icon-box .icon i {
   color: #c0e7f6;
-  font-size: 28px;
+  font-size: 50px;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box h5 {
@@ -1592,4 +1593,57 @@ section {
 /* [3] Finally, transforming the image when container gets hovered */
 .holdings .img-hover-zoom:hover img {
   transform: scale(1.2);
+}
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.core-details {
+  padding-top: 40px;
+}
+.core-details .core-details-slider img {
+  width: 100%;
+}
+.core-details .core-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.core-details .core-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #00a5e6;
+}
+.core-details .core-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #00a5e6;
+}
+.core-details .portfcoreolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
+}
+.core-details .core-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.core-details .core-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.core-details .core-info ul li + li {
+  margin-top: 10px;
+}
+.core-details .core-description {
+  padding-top: 30px;
+}
+.core-details .core-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.core-details .core-description p {
+  padding: 0;
 }

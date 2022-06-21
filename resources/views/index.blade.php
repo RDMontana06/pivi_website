@@ -61,7 +61,7 @@
 
 
 		<!-- ======= Core Section ======= -->
-		<section id="core" class="about section-bg">
+		<section id="core" class="about portfolio-details section-bg ">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
@@ -71,36 +71,64 @@
 
 				<div class="row">
 					<div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-						<img src="{{ asset('img/about.jpg') }}" class="img-fluid" alt="">
+						{{-- <img src="{{ asset('img/about.jpg') }}" class="img-fluid" alt=""> --}}
+						<div class="portfolio-details-slider swiper">
+							<div class="swiper-wrapper align-items-center">
+
+								<div class="swiper-slide">
+									<img src="{{ asset('img/core-values/1.jpg') }}" alt="">
+								</div>
+
+								<div class="swiper-slide">
+									<img src="{{ asset('img/core-values/2.jpg') }}" alt="">
+								</div>
+
+								<div class="swiper-slide">
+									<img src="{{ asset('img/core-values/3.jpg') }}" alt="">
+								</div>
+								<div class="swiper-slide">
+									<img src="{{ asset('img/core-values/4.jpg') }}" alt="">
+								</div>
+								<div class="swiper-slide">
+									<img src="{{ asset('img/core-values/5.jpg') }}" alt="">
+								</div>
+								<div class="swiper-slide">
+									<img src="{{ asset('img/core-values/6.jpg') }}" alt="">
+								</div>
+
+							</div>
+							{{-- <div class="swiper-pagination"></div> --}}
+						</div>
 					</div>
-					<div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
-						data-aos-delay="100">
-						<h3>Premium Infinite Ventures Inc.</h3>
+					<div class="col-lg-6 content  flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+						<h3>INTEGRITY</h3>
 						<p class="fst-italic">
-							A holding company that represents a broad range of services and industries, with a widely diversified fields in
-							technology, aggregate supplies, construction development and recurring revenue to provide world-class products and
-							services to the Filipino people
+							“To do good and be good at all times”
 						</p>
-						<ul>
-							<li>
-								<i class="bx bx-store-alt"></i>
-								<div>
-									<h5>Ullamco laboris nisi ut aliquip consequat</h5>
-									<p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-								</div>
-							</li>
-							<li>
-								<i class="bx bx-images"></i>
-								<div>
-									<h5>Magnam soluta odio exercitationem reprehenderi</h5>
-									<p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-								</div>
-							</li>
-						</ul>
-						<p>
-							Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-							velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-							culpa qui officia deserunt mollit anim id est laborum
+						<hr>
+						<h3>COMMITMENT</h3>
+						<p class="fst-italic">
+							“Never make excuses, only results”
+						</p>
+						<hr>
+						<h3>HUMILITY AND GENUINE CONCERN</h3>
+						<p class="fst-italic">
+							“Simplicity in enriching lives of the people”
+						</p>
+						<hr>
+						<h3>INNOVATION</h3>
+						<p class="fst-italic">
+							“There’s a way to do it better-find it” –Thomas Edison
+						</p>
+						<hr>
+						<h3>PREMIUM SERVICES</h3>
+						<p class="fst-italic">
+							“Quality Services beyond expectations”
+						</p>
+						<hr>
+						<h3>SYNERGY</h3>
+						<p class="fst-italic">
+							“Alone we can do so little: TOGETHER we can do so much”
 						</p>
 					</div>
 				</div>
@@ -120,95 +148,83 @@
 				</div>
 
 				<div class="row">
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="100">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-user-helmet-safety"></i></div>
 							<h5><a href="">Airport, Seaports and Shipyard Construction</a></h5>
-							<p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="200">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-buildings"></i></div>
 							<h5><a href="">Building, Land Development, Reclamation & Dredging </a></h5>
-							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-compass-drafting"></i></i></div>
 							<h5><a href="">Design & Build</a></h5>
-							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="100">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-ship"></i></div>
 							<h5><a href="">Dikes, Dams, River & Tide Embarkment</a></h5>
-							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="200">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-warehouse"></i></div>
 							<h5><a href="">Industrial Plant & Warehouse</a></h5>
-							<p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-anchor"></i></div>
 							<h5><a href="">Reclamation Dredging & Marine Vessel Services</a></h5>
-							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-arch"></i></div>
+							<div class="icon"><i class="fa-solid fa-truck-pickup"></i></div>
 							<h5><a href="">Precast, Aggregates and Cements</a></h5>
-							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-arch"></i></div>
+							<div class="icon"><i class="fa-solid fa-file-signature"></i></div>
 							<h5><a href="">Land Acquisition</a></h5>
-							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-arch"></i></div>
+							<div class="icon"><i class="fa-solid fa-store"></i></div>
 							<h5><a href="">E-commerce Marketplace</a></h5>
-							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-arch"></i></div>
+							<div class="icon"><i class="fa-solid fa-browser"></i></div>
 							<h5><a href="">Digital Solutions</a></h5>
-							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-arch"></i></div>
+							<div class="icon"><i class="fa-solid fa-camera-cctv"></i></div>
 							<h5><a href="">Electronic Distributor</a></h5>
-							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
 						<div class="icon-box">
-							<div class="icon"><i class="bx bx-arch"></i></div>
+							<div class="icon"><i class="fa-solid fa-qrcode"></i></div>
 							<h5><a href="">Digital Payment Channel</a></h5>
-							<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 						</div>
 					</div>
 
@@ -223,85 +239,105 @@
 
 				<div class="section-title">
 					<h2>Team</h2>
-					<h3>Our Hardworking <span>Team</span></h3>
-					{{-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-						autem.</p> --}}
+					<h3>Our <span>Teams</span></h3>
 				</div>
 
 				<div class="row">
-
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-						<div class="member">
-							<div class="member-img">
-								<img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-								<div class="social">
-									<a href=""><i class="bi bi-twitter"></i></a>
-									<a href=""><i class="bi bi-facebook"></i></a>
-									<a href=""><i class="bi bi-instagram"></i></a>
-									<a href=""><i class="bi bi-linkedin"></i></a>
+					<div class="col-lg-6">
+						<ol class="list-group list-group-flush">
+							<li class="list-group-item d-flex justify-content-center align-items-start">
+								<div class="mx-auto">
+									<div class="fw-bold">
+										<h4>Board of Directors</h4>
+									</div>
 								</div>
-							</div>
-							<div class="member-info">
-								<h4>Walter White</h4>
-								<span>Chief Executive Officer</span>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-						<div class="member">
-							<div class="member-img">
-								<img src="{{ asset('img/team/team-2.jpg') }}" class="img-fluid" alt="">
-								<div class="social">
-									<a href=""><i class="bi bi-twitter"></i></a>
-									<a href=""><i class="bi bi-facebook"></i></a>
-									<a href=""><i class="bi bi-instagram"></i></a>
-									<a href=""><i class="bi bi-linkedin"></i></a>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">Engr. Francis Lloyd T. Chua</div>
 								</div>
-							</div>
-							<div class="member-info">
-								<h4>Sarah Jhonson</h4>
-								<span>Product Manager</span>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-						<div class="member">
-							<div class="member-img">
-								<img src="{{ asset('img/team/team-3.jpg') }}" class="img-fluid" alt="">
-								<div class="social">
-									<a href=""><i class="bi bi-twitter"></i></a>
-									<a href=""><i class="bi bi-facebook"></i></a>
-									<a href=""><i class="bi bi-instagram"></i></a>
-									<a href=""><i class="bi bi-linkedin"></i></a>
+								<div class="me-2 ms-auto">
+									Chairman
 								</div>
-							</div>
-							<div class="member-info">
-								<h4>William Anderson</h4>
-								<span>CTO</span>
-							</div>
-						</div>
-					</div>
 
-					<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-						<div class="member">
-							<div class="member-img">
-								<img src="{{ asset('img/team/team-4.jpg') }}" class="img-fluid" alt="">
-								<div class="social">
-									<a href=""><i class="bi bi-twitter"></i></a>
-									<a href=""><i class="bi bi-facebook"></i></a>
-									<a href=""><i class="bi bi-instagram"></i></a>
-									<a href=""><i class="bi bi-linkedin"></i></a>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">Manuel A. Chua</div>
 								</div>
-							</div>
-							<div class="member-info">
-								<h4>Amanda Jepson</h4>
-								<span>Accountant</span>
-							</div>
-						</div>
+								<div class="me-2 ms-auto">
+									Director
+								</div>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">Theresa T. Chua</div>
+								</div>
+								<div class="me-2 ms-auto">
+									Director
+								</div>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">Dominic Van T. Chua</div>
+								</div>
+								<div class="me-2 ms-auto">
+									Director
+								</div>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">Cherry Ann T. Chua</div>
+								</div>
+								<div class="me-2 ms-auto">
+									Director
+								</div>
+							</li>
+						</ol>
 					</div>
-
+					<div class="col-lg-6">
+						<ol class="list-group list-group-flush">
+							<li class="list-group-item d-flex align-items-end">
+								<div class="mx-auto">
+									<div class="fw-bold">
+										<h4>Executive Committee</h4>
+									</div>
+								</div>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-end">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">Engr. Francis Lloyd T. Chua</div>
+								</div>
+								<div class="me-2 ms-auto">
+									Chairman
+								</div>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-end">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">Engr. Noel Jesus P. Santiago</div>
+								</div>
+								<div class="me-2 ms-auto">
+									Execom Member
+								</div>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-end">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">Engr. Alfredo L. Commendador</div>
+								</div>
+								<div class="me-2 ms-auto">
+									Execom Member
+								</div>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-end">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">Francis A. Calumba</div>
+								</div>
+								<div class="me-2 ms-auto">
+									Execom Member
+								</div>
+							</li>
+						</ol>
+					</div>
 				</div>
 
 			</div>

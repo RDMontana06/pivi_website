@@ -124,10 +124,15 @@
 					<div class="col-lg-3 col-md-6 footer-links">
 						<h4>Our Services</h4>
 						<ul>
-							<li><i class="bx bx-chevron-right"></i> <a href="#services">Construction</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#services">Logistics</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#services">Ship Building</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#services">Manufacturing</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Construction Services</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services"> Land Acquisition</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Shipyard Services</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Precast,Aggregates and Cements</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Freight Forwarder</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">E-commerce</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Digital Solutions</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Electronics Distributor</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Digital Payment Gateway Channel</a></li>
 						</ul>
 					</div>
 
