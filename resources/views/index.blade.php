@@ -385,7 +385,8 @@
 
 					<div class="col-lg-6 ">
 						<iframe class="mb-4 mb-lg-0" src="https://maps.google.com/maps?q=PMI%20tower&t=&z=13&ie=UTF8&iwloc=&output=embed"
-							frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+							frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen>
+						</iframe>
 					</div>
 
 
