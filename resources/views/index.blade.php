@@ -359,7 +359,7 @@
 						<div class="info-box mb-4">
 							<i class="bx bx-map"></i>
 							<h3>Our Address</h3>
-							<p>1423 The Mondrian Bldg., P. Ocampo Ext., Brgy. San Antonio, Makati City, Philippines 1203</p>
+							<p>Corner, Pablo Ocampo Sr Ext Onyx &, Cabanillas, Makati, 1203 Metro Manila</p>
 						</div>
 					</div>
 
@@ -384,8 +384,7 @@
 				<div class="row" data-aos="fade-up" data-aos-delay="100">
 
 					<div class="col-lg-6 ">
-						<iframe class="mb-4 mb-lg-0"
-							src="https://maps.google.com/maps?q=1423%20The%20Mondrian%20Bldg&t=&z=13&ie=UTF8&iwloc=&output=embed"
+						<iframe class="mb-4 mb-lg-0" src="https://maps.google.com/maps?q=PMI%20tower&t=&z=13&ie=UTF8&iwloc=&output=embed"
 							frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
 					</div>
 

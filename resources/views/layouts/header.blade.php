@@ -101,9 +101,9 @@
 					<div class="col-lg-3 col-md-6 footer-contact">
 						<h3>PIVI<span>.</span></h3>
 						<p>
-							1423 The Mondrian Bldg.,<br>
-							P. Ocampo Ext., Brgy. San Antonio, Makati City,<br>
-							Metro Manila, Philippines 1203<br><br>
+							Corner, Pablo Ocampo Sr Ext Onyx &,<br>
+							Cabanillas, Makati, <br>
+							Metro Manila, Philippines 1203<br>
 							<strong>Phone:</strong> +1 5589 55488 55<br>
 							<strong>Email:</strong> info@premiuminfiniteventures.com<br>
 						</p>
@@ -138,7 +138,7 @@
 
 					<div class="col-lg-3 col-md-6 footer-links">
 						<h4>Our Social Networks</h4>
-						<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+						<p>Please follow our social media accounts for more updates.</p>
 						<div class="social-links mt-3">
 							<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
 							<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
