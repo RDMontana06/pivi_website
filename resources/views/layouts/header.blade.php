@@ -101,7 +101,7 @@
 					<div class="col-lg-3 col-md-6 footer-contact">
 						<h3>PIVI<span>.</span></h3>
 						<p>
-							Corner, Pablo Ocampo Sr Ext Onyx &,<br>
+							17th Floor PMI Tower. Corner, Pablo Ocampo Sr Ext Onyx &,<br>
 							Cabanillas, Makati, <br>
 							Metro Manila, Philippines 1203<br>
 							<strong>Phone:</strong> +1 5589 55488 55<br>
