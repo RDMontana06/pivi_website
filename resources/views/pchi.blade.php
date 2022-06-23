@@ -21,7 +21,7 @@
 			<div class="container">
 
 				<div class="row gy-4">
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-sm-4">
 						<div class="portfolio-details-slider swiper">
 							<div class="swiper-wrapper align-items-center">
 
@@ -50,7 +50,7 @@
 							<div class="swiper-pagination"></div>
 						</div>
 					</div>
-					<div class="col-lg-8">
+					<div class="col-lg-8 col-md-8 col-sm-8">
 						<div class="portfolio-info">
 							<h3>About PCHI</h3>
 							<ul>

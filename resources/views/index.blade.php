@@ -95,7 +95,7 @@
 							{{-- <div class="swiper-pagination"></div> --}}
 						</div>
 					</div>
-					<div class="col-lg-6 content  flex-column justify-content-center pt-2" data-aos="fade-left" data-aos-delay="100">
+					<div class="col-lg-6 content  flex-column justify-content-center" data-aos="fade-left" data-aos-delay="100">
 						<h3>INTEGRITY</h3>
 						<p class="fst-italic">
 							“To do good and be good at all times”
@@ -350,16 +350,16 @@
 				</div>
 
 				<div class="row" data-aos="fade-up" data-aos-delay="100">
-					<div class="col-lg-6">
-						<div class="info-box mb-4">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="info-box mb-4 p-2">
 							<i class="bx bx-map"></i>
 							<h3>Our Address</h3>
 							<p>17th Floor PMI Tower. Corner, Pablo Ocampo Sr Ext Onyx &, Cabanillas, Makati, 1203 Metro Manila</p>
 						</div>
 					</div>
 
-					<div class="col-lg-6 col-md-6">
-						<div class="info-box  mb-4">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="info-box mb-4 p-2">
 							<i class="bx bx-envelope"></i>
 							<h3>Email Us</h3>
 							<p>info@premiuminfiniteventures.com</p>
