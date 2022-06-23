@@ -104,7 +104,6 @@
 							17th Floor PMI Tower. Corner, Pablo Ocampo Sr Ext Onyx &,<br>
 							Cabanillas, Makati, <br>
 							Metro Manila, Philippines 1203<br>
-							<strong>Phone:</strong> +1 5589 55488 55<br>
 							<strong>Email:</strong> info@premiuminfiniteventures.com<br>
 						</p>
 					</div>
@@ -127,7 +126,7 @@
 							<li><i class="bx bx-chevron-right"></i> <a href="#services">Construction Services</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#services"> Land Acquisition</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#services">Shipyard Services</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#services">Precast,Aggregates and Cements</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Precast, Aggregates and Cements</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#services">Freight Forwarder</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#services">E-commerce</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#services">Digital Solutions</a></li>

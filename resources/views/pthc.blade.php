@@ -26,15 +26,27 @@
 							<div class="swiper-wrapper align-items-center">
 
 								<div class="swiper-slide">
-									<img src="{{ asset('img/about_pchi/1.png') }}" alt="">
+									<img src="{{ asset('img/about/PTHC/3.jpg') }}" alt="">
 								</div>
 
 								<div class="swiper-slide">
-									<img src="{{ asset('img/about_pchi/2.png') }}" alt="">
+									<img src="{{ asset('img/about/PTHC/1.jpg') }}" alt="">
 								</div>
 
 								<div class="swiper-slide">
-									<img src="{{ asset('img/about_pchi/3.png') }}" alt="">
+									<img src="{{ asset('img/about/PTHC/2.jpg') }}" alt="">
+								</div>
+
+								<div class="swiper-slide">
+									<img src="{{ asset('img/about/PTHC/4.jpg') }}" alt="">
+								</div>
+
+								<div class="swiper-slide">
+									<img src="{{ asset('img/about/PTHC/5.jpg') }}" alt="">
+								</div>
+
+								<div class="swiper-slide">
+									<img src="{{ asset('img/about/PTHC/6.jpg') }}" alt="">
 								</div>
 
 							</div>

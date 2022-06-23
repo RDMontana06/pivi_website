@@ -22,10 +22,10 @@
 		</div>
 		<div class="container" data-aos="fade-up">
 			<div class="row">
-				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
+				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
 					<a href="{{ url('/pchi') }}">
 						<div class="img-hover-zoom">
-							<img src="{{ asset('img/holdings-logo/pchi-logo.jpg') }}" width="300" height="300">
+							<img src="{{ asset('img/holdings-logo/pchi-logo.png') }}" width="300" height="300">
 						</div>
 					</a>
 					{{-- <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
@@ -37,7 +37,7 @@
 					{{-- </div> --}}
 				</div>
 
-				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
+				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
 					<a href="{{ url('/ihdc') }}">
 						<div class="img-hover-zoom">
 							<img src="{{ asset('img/holdings-logo/ihdc-holdings.png') }}" width="300" height="300" alt="">
@@ -45,7 +45,7 @@
 					</a>
 				</div>
 
-				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
+				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
 					<a href="{{ url('/pthc') }}">
 						<div class="img-hover-zoom">
 							<img src="{{ asset('img/holdings-logo/pthc-logo.png') }}" width="300" height="300" alt="">
@@ -100,7 +100,7 @@
 							{{-- <div class="swiper-pagination"></div> --}}
 						</div>
 					</div>
-					<div class="col-lg-6 content  flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+					<div class="col-lg-6 content  flex-column justify-content-center" data-aos="fade-left" data-aos-delay="100">
 						<h3>INTEGRITY</h3>
 						<p class="fst-italic">
 							“To do good and be good at all times”
@@ -169,21 +169,21 @@
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="100">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-ship"></i></div>
 							<h5><a href="">Dikes, Dams, River & Tide Embarkment</a></h5>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="200">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="100">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-warehouse"></i></div>
 							<h5><a href="">Industrial Plant & Warehouse</a></h5>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="200">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-anchor"></i></div>
 							<h5><a href="">Reclamation Dredging & Marine Vessel Services</a></h5>
@@ -197,19 +197,19 @@
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-file-signature"></i></div>
 							<h5><a href="">Land Acquisition</a></h5>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="100">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-store"></i></div>
 							<h5><a href="">E-commerce Marketplace</a></h5>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="200">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-browser"></i></div>
 							<h5><a href="">Digital Solutions</a></h5>
@@ -221,7 +221,7 @@
 							<h5><a href="">Electronic Distributor</a></h5>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="col-lg-3 col-md-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
 						<div class="icon-box">
 							<div class="icon"><i class="fa-solid fa-qrcode"></i></div>
 							<h5><a href="">Digital Payment Channel</a></h5>
