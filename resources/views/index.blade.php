@@ -22,22 +22,17 @@
 		</div>
 		<div class="container" data-aos="fade-up">
 			<div class="row">
-				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+				<div class="col-sm-4 col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in"
+					data-aos-delay="100">
 					<a href="{{ url('/pchi') }}">
 						<div class="img-hover-zoom">
 							<img src="{{ asset('img/holdings-logo/pchi-logo.png') }}" width="300" height="300">
 						</div>
 					</a>
-					{{-- <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-							<img src="{{ asset('img/holdings-logo/pchi-logo.jpg') }}" data-bs-toggle="modal" data-bs-target="#pchi"
-								width="300" height="300" alt=""> --}}
-					{{-- <div class="icon"><i class='bx bxs-hard-hat'></i></div>
-							<h4 class="title"><a href="{{ url('/pchi') }}">PCHI</a></h4>
-							<p class="description">Premium Capital Holdings Inc. dolores et quas molestias excepturi</p> --}}
-					{{-- </div> --}}
 				</div>
 
-				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+				<div class="col-sm-4 col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in"
+					data-aos-delay="200">
 					<a href="{{ url('/ihdc') }}">
 						<div class="img-hover-zoom">
 							<img src="{{ asset('img/holdings-logo/ihdc-holdings.png') }}" width="300" height="300" alt="">
@@ -45,7 +40,8 @@
 					</a>
 				</div>
 
-				<div class="col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+				<div class="col-sm-4 col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in"
+					data-aos-delay="300">
 					<a href="{{ url('/pthc') }}">
 						<div class="img-hover-zoom">
 							<img src="{{ asset('img/holdings-logo/pthc-logo.png') }}" width="300" height="300" alt="">
@@ -53,7 +49,6 @@
 					</a>
 				</div>
 			</div>
-
 		</div>
 	</section><!-- End Featured Services Section -->
 	<main id="main">
@@ -100,7 +95,7 @@
 							{{-- <div class="swiper-pagination"></div> --}}
 						</div>
 					</div>
-					<div class="col-lg-6 content  flex-column justify-content-center" data-aos="fade-left" data-aos-delay="100">
+					<div class="col-lg-6 content  flex-column justify-content-center pt-2" data-aos="fade-left" data-aos-delay="100">
 						<h3>INTEGRITY</h3>
 						<p class="fst-italic">
 							“To do good and be good at all times”

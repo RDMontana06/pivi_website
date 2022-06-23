@@ -10,7 +10,7 @@
 	<meta content="Premium Infinite Ventures" property="og:title">
 	<meta content="Holdings, Construction Company, Shipping, Logistics, Ship Building" property="og:description">
 	<meta content="{{ asset('img/PIVI_FINAL_PNG-02.png') }}" property="og:image">
-	<meta content="http://premiuminfiniteventures.com/" property="og:url">
+	<meta content="https://premiuminfiniteventures.com/" property="og:url">
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="{{ asset('img/PIVI_FINAL_PNG-02.png') }}" />
 	<link href="{{ asset('img/PIVI_FINAL_PNG-02.png') }}" rel="pivi-logo.png">
