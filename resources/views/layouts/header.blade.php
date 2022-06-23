@@ -53,11 +53,6 @@
 	<!-- ======= Header ======= -->
 	<header id="header" class="d-flex align-items-center">
 		<div class="container d-flex align-items-center justify-content-between">
-			{{-- <h1 class="logo"><a href="index.html">
-					<img src="{{ asset('img/logowhite.png') }}" alt="">
-					<span>PIVI</span>
-				</a>
-			</h1> --}}
 			<a href="{{ url('/') }}" class="logo"><img src="{{ asset('img/PIVI_FINAL_PNG-02.png') }}"
 					alt=""></a>
 
@@ -67,24 +62,6 @@
 					<li><a class="nav-link scrollto" href="{{ url('/') }}#holdings">Holdings</a></li>
 					<li><a class="nav-link scrollto" href="{{ url('/') }}#core">Core Values</a></li>
 					<li><a class="nav-link scrollto" href="{{ url('/') }}#services">Services</a></li>
-					<li><a class="nav-link scrollto" href="{{ url('/') }}#team">Team</a></li>
-					{{-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-						<ul>
-							<li><a href="#">Drop Down 1</a></li>
-							<li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-								<ul>
-									<li><a href="#">Deep Drop Down 1</a></li>
-									<li><a href="#">Deep Drop Down 2</a></li>
-									<li><a href="#">Deep Drop Down 3</a></li>
-									<li><a href="#">Deep Drop Down 4</a></li>
-									<li><a href="#">Deep Drop Down 5</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Drop Down 2</a></li>
-							<li><a href="#">Drop Down 3</a></li>
-							<li><a href="#">Drop Down 4</a></li>
-						</ul>
-					</li> --}}
 					<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
@@ -115,7 +92,6 @@
 							<li><i class="bx bx-chevron-right"></i> <a href="#holdings">Holdings</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#core">Core Values</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
 						</ul>
 					</div>
