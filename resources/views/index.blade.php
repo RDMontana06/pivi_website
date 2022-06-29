@@ -3,7 +3,7 @@
 
 @section('content')
 	<!-- ======= Hero Section ======= -->
-	<section id="hero" class="d-flex align-items-center">
+	<section id="home" class="d-flex align-items-center">
 		<div class="container" data-aos="zoom-out" data-aos-delay="100">
 			<h1>Welcome to <span>Premium Infinite Ventures Inc.</span></h1>
 			<h2>A holding company that represents a broad range of services and industries, with a widely diversified fields in
@@ -22,29 +22,26 @@
 		</div>
 		<div class="container" data-aos="fade-up">
 			<div class="row">
-				<div class="col-sm-4 col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in"
-					data-aos-delay="100">
+				<div class="col-lg-4 col-md-12 mt-4" data-aos="zoom-in" data-aos-delay="100">
 					<a href="{{ url('/pchi') }}">
-						<div class="img-hover-zoom">
-							<img src="{{ asset('img/holdings-logo/pchi-logo.png') }}" width="300" height="300">
+						<div class="card">
+							<img src="{{ asset('img/holdings-logo/pchi-logo.png') }}">
 						</div>
 					</a>
 				</div>
 
-				<div class="col-sm-4 col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in"
-					data-aos-delay="200">
+				<div class="col-lg-4 col-md-12 mt-4" data-aos="zoom-in" data-aos-delay="200">
 					<a href="{{ url('/ihdc') }}">
-						<div class="img-hover-zoom">
-							<img src="{{ asset('img/holdings-logo/ihdc-holdings.png') }}" width="300" height="300" alt="">
+						<div class="card">
+							<img src="{{ asset('img/holdings-logo/ihdc-holdings.png') }}" alt="">
 						</div>
 					</a>
 				</div>
 
-				<div class="col-sm-4 col-md-4 col-lg-4 d-flex align-items-center mb-2 mb-lg-0" data-aos="zoom-in"
-					data-aos-delay="300">
+				<div class="col-lg-4 col-md-12 mt-4" data-aos="zoom-in" data-aos-delay="300">
 					<a href="{{ url('/pthc') }}">
-						<div class="img-hover-zoom">
-							<img src="{{ asset('img/holdings-logo/pthc-logo.png') }}" width="300" height="300" alt="">
+						<div class="card">
+							<img src="{{ asset('img/holdings-logo/pthc-logo.png') }}" alt="">
 						</div>
 					</a>
 				</div>

@@ -12,16 +12,36 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view(
+        'index',
+        array(
+            'header' => 'home',
+        )
+    );
 });
 Route::get('/pchi', function () {
-    return view('pchi');
+    return view(
+        'pchi',
+        array(
+            'header' => 'pchi',
+        )
+    );
 });
 Route::get('/pthc', function () {
-    return view('pthc');
+    return view(
+        'pthc',
+        array(
+            'header' => 'pthc',
+        )
+    );
 });
 Route::get('/ihdc', function () {
-    return view('ihdc');
+    return view(
+        'ihdc',
+        array(
+            'header' => 'ihdc',
+        )
+    );
 });
 
 // Route::post('contact_us', function () {

@@ -58,11 +58,13 @@
 
 			<nav id="navbar" class="navbar">
 				<ul>
-					<li><a class="nav-link scrollto active" href="{{ url('/') }}#hero">Home</a></li>
-					<li><a class="nav-link scrollto" href="{{ url('/') }}#holdings">Holdings</a></li>
+					<li><a class="nav-link scrollto {{ $header === 'home' ? 'active' : null }}"
+							href="{{ url('/') }}#home">Home</a></li>
+					<li><a class="nav-link scrollto {{ $header !== 'home' ? 'active' : null }}"
+							href="{{ url('/') }}#holdings">Holdings</a></li>
 					<li><a class="nav-link scrollto" href="{{ url('/') }}#core">Core Values</a></li>
 					<li><a class="nav-link scrollto" href="{{ url('/') }}#services">Services</a></li>
-					<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+					<li><a class="nav-link scrollto" href="{{ url('/') }}#contact">Contact</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
 			</nav><!-- .navbar -->
